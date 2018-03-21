@@ -3,10 +3,12 @@ from datetime import datetime
 import OpenSSL
 import socket
 
-#path where the script will create the .html page
+#path where the script will be create the .html page
 #Local onde será criada a pagina .html
 page=open('C:\inetpub\wwwroot\index.html','w')
 
+#Create a file called certs.mon and add the domain that need to be monitored the certificate and add the port too"
+#e.g: mydomain.com:445 
 DOMINIOS=open('certs.mon', 'r')
 
 #Date now
