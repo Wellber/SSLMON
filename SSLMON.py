@@ -7,7 +7,7 @@ import socket
 #Local onde será criada a pagina .html
 page=open('C:\inetpub\wwwroot\index.html','w')
 
-#Create a file called certs.mon and add the domain that need to be monitored the certificate and add the port too"
+#Create a file called certs.mon and add the domain that need to monitoring the certificate and add the port too"
 #e.g: mydomain.com:445 
 DOMINIOS=open('certs.mon', 'r')
 
